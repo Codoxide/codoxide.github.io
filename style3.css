@@ -1,0 +1,112 @@
+@keyframes HoverMainButtons {
+    0% {
+
+        color: #FFD700;
+    }
+
+    70% {
+        color: white;
+    }
+
+    100% {
+        color: white;
+    }
+
+}
+
+#This2{
+    color: #a48f1c;
+    animation: none;
+}
+
+body,
+h1,
+p,
+ul{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    color: rgb(255, 255, 108);
+}
+
+body {
+    font-family: monospace;
+    background-color: #229200;
+}
+
+
+
+
+
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about-section,
+.mission-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h2,
+.mission-section h2 {
+    font-weight: bolder;
+    color: rgb(229, 229, 0);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #254a0c;
+    color: #fff;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #FFD700;
+    font-family: Avenir;
+    font-weight: light;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+
+    font-size: 24px;
+    text-decoration: none;
+}
+nav a:hover {
+    animation: HoverMainButtons 0.1s ease;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+header {
+    background-color: #254a0c;
+
+    padding: 20px;
+}
