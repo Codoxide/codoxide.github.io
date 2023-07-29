@@ -67,7 +67,15 @@
     color: #a48f1c;
     animation: none;
 }
-
+#Tip{
+    font-size: 28px;
+    line-height: 1.6;
+    color: rgb(183, 255, 0);
+    font-weight: light;
+    text-align: center;
+    font-family: Avenir;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.275);
+}
 
 
 li {
@@ -247,8 +255,11 @@ body {
 }
 
 #CapsText {
-    font-size: 16px;
-    color: #888;
+    font-size: 28px;
+    color: rgb(183, 255, 0);
+    font-weight: light;
+    font-family: Avenir;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.275);
 }
 
 #Result {
