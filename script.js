@@ -1062,18 +1062,33 @@ var paragraph = shuffledArray.join(" ");
 if (TypeText != null) {
     if (capitalizeFirstLetterBool == "true") {
         TypeText.style.direction = "ltr";
+        TypeText.style.fontFamily = "monospace";
+        TypeText.style.lineHeight = "1.6";
+        TypeText.style.wordSpacing = "2px";
+        TypeText.style.letterSpacing = "0px";
         TypeText.style.fontSize = "28px";
         TypeText.textContent = capitalizeFirstLetter(getFirst50Words(paragraph)) + ".";
     }
     else {
         TypeText.style.direction = "ltr";
         TypeText.style.fontSize = "28px";
+        TypeText.style.lineHeight = "1.6";
+        TypeText.style.wordSpacing = "2px";
+        TypeText.style.letterSpacing = "0px";
+
+        TypeText.style.fontFamily = "monospace";
+
         TypeText.textContent = getFirst50Words(paragraph) + ".";
     }
 
     if (ArabicOn == "true") {
         TypeText.style.direction = "rtl";
         TypeText.style.fontSize = "32px";
+        TypeText.style.letterSpacing = "1.5px";
+        TypeText.style.lineHeight = "2.0";
+
+        TypeText.style.wordSpacing = "5px";
+        TypeText.style.fontFamily = "system-ui";
 
         var shuffledArray = shuffleArray(arabicWords);
         var paragraph = shuffledArray.join(" ");
@@ -1270,7 +1285,7 @@ function CorrectTyping() {
     // Extract the file name from the pathname
     const parts = pathname.split('/');
     const fileName = parts[parts.length - 1];
-    if (disabled == false) {
+    if (disabled == false && fileName == "index.html") {
         Update();
 
         var CurrentWriteAllWords100 = TypeText.querySelectorAll("span");
