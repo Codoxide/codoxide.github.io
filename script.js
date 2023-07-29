@@ -1285,7 +1285,7 @@ function CorrectTyping() {
     // Extract the file name from the pathname
     const parts = pathname.split('/');
     const fileName = parts[parts.length - 1];
-    if (disabled == false && fileName == "index.html") {
+    if (disabled == false) {
         Update();
 
         var CurrentWriteAllWords100 = TypeText.querySelectorAll("span");
