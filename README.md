@@ -54,6 +54,7 @@ turtletype/
 ├── Settings.html
 ├── css/
 ├── js/
+├── screenshots/
 └── images/
 ```
 
