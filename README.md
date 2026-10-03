@@ -23,8 +23,6 @@ A typing speed test built from scratch. No frameworks, no backend, no dependenci
 |---|---|---|
 | ![Home](screenshots/home.png) | ![Settings](screenshots/settings.png) | ![Scores](screenshots/scores.png) |
 
-*(drop screenshots into a `screenshots/` folder with these three filenames and they'll render here automatically)*
-
 ## Features
 
 - **Live typing test** with a countdown timer, real time WPM, raw WPM, and accuracy
